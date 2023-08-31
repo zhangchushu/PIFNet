@@ -38,7 +38,7 @@ parser.add_argument("--init_epoch", type=int, default=0, help="the initial epoch
 
 parser.add_argument("--lr", type=int, default=1e-4, help="the initial learning rate")
 parser.add_argument("--model", type=str, default="vimeo_model.pth", help="model path")
-
+parser.add_argument("--datapath", type=str, default="", help="data path")
 parser.add_argument("--workers", type=int, default=4, help=" ")
 
 args = parser.parse_args()
