@@ -1,5 +1,6 @@
 
 # PIFNet: A Point-Image Fusion Network for Event-based Frame Interpolation
+<center><img src="./pics/pic1.png" width="50%"></center>
 
 The official implemention of PIFNet[[paper](https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/cvi2.12220)]
 
@@ -13,6 +14,7 @@ We used the following to train and test the model.
 - [PyTorch](http://pytorch.org/)==1.8.0, torchvision==0.6.0, cudatoolkit==10.1
 
 ## Model
+<center><img src="./pics/pipeline1.png" width="90%"></center>
 
 
 
