@@ -17,4 +17,12 @@ We used the following to train and test the model.
 <center><img src="./pics/pipeline1.png" width="90%"></center>
 
 
+### Trained Models.
+You can download the pretrained PIFNet models from the following links.
+
+| **PreTrained model** |[Link](https://drive.google.com/file/d/19qVTcJLl6TjNjgtpcQwdnYAXEJaD0_F9/view?usp=drive_link) | on Vimeo-90k dataset.
+
+| **FineTuned model** |[Link](https://drive.google.com/file/d/12iw9ShNLvEzai9TOQPwSK6uwCJYT02ko/view?usp=drive_link) | on ESRGB dataset.
+
+
 
