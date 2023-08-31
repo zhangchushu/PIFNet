@@ -1,7 +1,7 @@
 
 # PIFNet: A Point-Image Fusion Network for Event-based Frame Interpolation
 
-The official implemention of PIFNet
+The official implemention of PIFNet[[paper](https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/cvi2.12220)]
 
 ## Dependencies
 
