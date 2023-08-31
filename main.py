@@ -49,24 +49,24 @@ if __name__ == "__main__":
 
     init_epoch = args.init_epoch
   
-    data_path = "/media/root/f/LongguangWang/Data/Goprodataset"
+    data_path = args.datapath
     
-    # traindataset = vimeotrainset(r'/media/root/Bte1/mywork/Event/dataset/viemotrainset')
+    # traindataset = vimeodata_pathtrainset(data_path)
     # trainloader = DataLoader(traindataset, batch_size=args.train_batchsize, shuffle=True, num_workers=args.workers, pin_memory=True)
     
 
  
 
-    testdataset = vimeotestset(r'/media/root/LENOVO_USB_HDD/vimeotest')
+    testdataset = vimeotestset(data_path)
     testloader = DataLoader(testdataset, batch_size=args.test_batchsize, shuffle=False, num_workers=args.workers, pin_memory=True)
 
 
 
 #--------------------------------------------------------------------------------------------------------#
-    # testdataset = middleburyset1(r'/media/root/LENOVO_USB_HDD/middleburyother')
+    # testdataset = middleburyset1(data_path)
     # testloader = DataLoader(testdataset, batch_size=args.test_batchsize, shuffle=False, num_workers=args.workers,
     #                         pin_memory=True)
-    # testdataset = middleburyset3(r'/media/root/LENOVO_USB_HDD/middleburyother')
+    # testdataset = middleburyset3(data_path)
     # testloader = DataLoader(testdataset, batch_size=args.test_batchsize, shuffle=False, num_workers=args.workers, pin_memory=True)
 
 
@@ -76,17 +76,15 @@ if __name__ == "__main__":
 
 
 # --------------------------------------------------------------------------------------------------------#
-    # testdataset = HSBSRGB_tripple(r'/media/root/LENOVO_USB_HDD/BSRGB/1_TEST')
+    # testdataset = HSBSRGB_tripple(data_path)
     # testloader = DataLoader(testdataset, batch_size=args.test_batchsize, shuffle=False, num_workers=args.workers, pin_memory=True)
 
-    # testdataset = HSBSRGB_single(r'/media/root/LENOVO_USB_HDD/BSRGB/1_TEST')
+    # testdataset = HSBSRGB_single(data_path)
     # testloader = DataLoader(testdataset, batch_size=args.test_batchsize, shuffle=False, num_workers=args.workers, pin_memory=True)
 
 
-    # testdataset = HSBSRGB_single(r'/media/root/LENOVO_USB_HDD/BSRGB/testsmall')
-    # testloader = DataLoader(testdataset, batch_size=args.test_batchsize, shuffle=False, num_workers=args.workers, pin_memory=True)
-    
-    # traindataset = HSBSRGB_train(r'/media/root/LENOVO_USB_HDD/BSRGB/3_TRAINING')
+
+    # traindataset = HSBSRGB_train(data_path)
     # trainloader = DataLoader(traindataset, batch_size=args.train_batchsize, shuffle=True, num_workers=args.workers, pin_memory=True)
 #--------------------------------------------------------------------------------------------------------#
 
