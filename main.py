@@ -1,5 +1,5 @@
 import collections
-from pickle import TRUE
+# TRUE = True  # 如果需要的话，或者直接使用 True
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader

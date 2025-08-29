@@ -15,7 +15,7 @@ import torch.optim as optim
 
 vgg16=models.vgg16(pretrained=True)
 vgg16_conv_4_3 = nn.Sequential(*list(vgg16.children())[0][:22])
-vgg16_conv_4_3 .cuda()
+vgg16_conv_4_3 = vgg16_conv_4_3.cuda() if torch.cuda.is_available() else vgg16_conv_4_3
 for param in vgg16_conv_4_3.parameters():
     param.requires_grad = False
     
