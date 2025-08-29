@@ -1,9 +1,9 @@
-from mimetypes import init
-from tkinter import N
-from turtle import left
+# 移除不必要的导入
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
+import torch
+import torch.nn as nn
 from cv2 import resizeWindow, transpose
 from numpy import reshape
 from arch.EFEmodule import EFEmodule
